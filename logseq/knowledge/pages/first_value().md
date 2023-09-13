@@ -1,0 +1,4 @@
+-
+- ![image.png](../assets/image_1693567811659_0.png)
+-
+- choose the first value  of  some col for all rows.

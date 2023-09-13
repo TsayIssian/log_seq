@@ -1,0 +1,1 @@
+- find the irrilevance, Don't be proud , be tolerant,  firstly , assume you don't understand others ,  lastly asume other is stupid.

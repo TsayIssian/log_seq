@@ -1,0 +1,5 @@
+- Mysql update
+- update t1, t2   set t1.c1 = t2.c1  and t1.c2=expr   where t1.c1 = t2.c1 and codition.
+- use  join  :   update t1  inner|left |right  join  t2  on t1.c1= t2.c1    set t1.c2 =t2.c2  and  t1.c3 =expr   where condtion.
+-
+-

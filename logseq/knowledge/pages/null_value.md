@@ -1,0 +1,5 @@
+- select count(null)
+	- ans =0;
+	- null is not a value,
+	- but once you group by & count them all null record are same , count be 1.
+-

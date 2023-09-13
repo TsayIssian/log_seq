@@ -1,0 +1,1 @@
+- 币安 hkd,Okex paxful binance gate huobis

@@ -1,0 +1,41 @@
+- row level into column-level.
+-
+-
+- prerequistes  before attempting to write a query to pivot table:
+	- aggregate functions: you should know functions like count ,sum, avg,
+	- min, max ,etc to perform calculations.
+	- group by clause: You should know how to use group by clause to group rows based on one or more colums in a table
+	- joins : how to use join clause to combine data from different   based on common
+	- columns.
+	- subqueries: you should be familiar with subqueries and how to use them to generate intermediate results that can be used in a large query.
+	- conditional expressions:  if, case , and coalesc.
+- you can't just pivot row into columns , because , case statement functionaly not
+- enough for rotating , will need aggregate functions and group by clause with
+-
+-
+- ## Conclusion
+- Here are some key points to remember about pivoting in MySQL:
+- Pivot in MySQL transforms rows into columns in a table, using aggregate functions such as SUM(), COUNT(), or AVG().
+- Pivot table in MySQL can be achieved using the CASE statement in combination with aggregate functions.
+- Pivot is useful for summarizing data and creating reports.
+- Pivot can be done on a single table or multiple tables, by joining the tables together.
+- Pivot table in MySQL can be used
+   to transform data into a more readable and actionable format, and can 
+  help identify patterns and trends that might not be easily visible in a 
+  tabular format.
+- Pivot in MySQL is a common technique used in business intelligence and data analytics.
+-
+- row to col is  pivot , use aggregate function,   case when the missing col_name = 'row_value' then some row_value     as  new_col_name.
+- col to row is union
+-
+- column to row .
+- originala table col:  name, 语文， 数学， 英语
+- use union all.
+-
+- select name,  "语文" as `subject`-- subject are newly created col,  语文 as scores  from sql_1
+- union all
+- select name, "数学" as subject,  数学 as scores from from sql_1
+-
+- select name, "英语" as subject , 英语 as scores from sql_1;
+-
+-

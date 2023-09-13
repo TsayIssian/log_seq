@@ -1,0 +1,8 @@
+- window use backslash   '\',
+-
+- mac os or unix like  use forward slash  /;
+-
+- fields determined by ','
+- lines determined by '\n'
+-
+-

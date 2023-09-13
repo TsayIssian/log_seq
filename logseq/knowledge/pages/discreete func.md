@@ -1,0 +1,2 @@
+- at some point being infinite ,,  infinite discontinuity.
+- abruptly  finite jumps .

@@ -1,0 +1,1 @@
+- update stocks set tradeDate =str_to_date (tradeDate , '%m%d%Y');s

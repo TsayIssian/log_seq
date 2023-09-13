@@ -1,0 +1,5 @@
+- ![image.png](../assets/image_1691937942874_0.png)
+-
+- is equally to  select t1.*  from t1 left join t2 on t1.id = t2.id
+- where t2.id is null.
+-

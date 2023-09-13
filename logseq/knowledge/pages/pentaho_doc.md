@@ -1,0 +1,10 @@
+- 2、查看官方Kettle知识库
+- https://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+%28aka+Kettle%29+Documentation
+- 3、查询所有官方Trans组件说明及示例
+- https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps
+- 4、查询所有官方Job组件说明及示例
+- https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Job+Entries
+- 5、依据组件名称，直接查找组件说明，比如 HBase Output
+- https://wiki.pentaho.com/display/EAI/HBase+Output
+-
+- 官方全平台知识库文档[（https://wiki.pentaho.com/）](https://pentaho-public.atlassian.net/wiki/spaces/EAI/overview)

@@ -1,0 +1,4 @@
+- no need on clause  ,
+- no duplicate column shown
+- id:: 64f569f5-8c97-4969-b4e9-080dfd616b32
+- ![image.png](../assets/image_1693805081256_0.png)

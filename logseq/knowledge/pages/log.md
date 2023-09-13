@@ -1,0 +1,2 @@
+- b ^(log b x) = x
+- log b m - log b n = log b (m/n)

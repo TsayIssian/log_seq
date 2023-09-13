@@ -1,0 +1,3 @@
+- in place of  any , all ,  in, not in   with  exists
+- or not exists
+	- select   from   where exists /not exists  (select statement ) *just a logic return value.

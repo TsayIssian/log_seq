@@ -1,0 +1,11 @@
+- try not to truncate table and rollback ,
+- try not to drop table  and rollback, the table & data all not exists.
+- the data will be removed , not come back.
+- truncate job:
+	- delete table
+	- create a new one
+	- on table level.
+- better use delete table ,after auto commit , all will come back.
+-
+-
+- only used for insert ,update , delete.

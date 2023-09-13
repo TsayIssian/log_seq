@@ -1,0 +1,3 @@
+- always use load data infile as a first attempt for huge sets of data.
+- 'secure_file_priv', 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\'
+-

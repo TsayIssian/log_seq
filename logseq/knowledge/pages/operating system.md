@@ -1,0 +1,3 @@
+- cmd:  sysdm.cpl    enviroment  variable
+-
+-

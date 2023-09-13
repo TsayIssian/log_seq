@@ -1,0 +1,4 @@
+-
+- Mostly common ,  arraylist is slightly better than linkedlist whatever do insert&deletation or search& access
+- but , when you frequently do delete or insertation, use linkedlist.
+-

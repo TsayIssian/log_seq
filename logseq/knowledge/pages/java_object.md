@@ -1,0 +1,8 @@
+- Some key observations and terminology:
+- An `Object` in Java is an instance of any class.
+- The `Dog` class has its own variables, also known as *instance variables* or *non-static variables*. These must be declared inside the class,
+- The method that we created in the `Dog` class did not have the `static` keyword. We call such methods *instance methods* or *non-static methods*.
+- To call the `makeNoise` method, we had to first *instantiate* a `Dog` using the `new` keyword, and then make a specific `Dog` bark. In other words, we called `d.makeNoise()` instead of `Dog.makeNoise()`.
+- Once an object has been instantiated, it can be *assigned* to a *declared* variable of the appropriate type, e.g. `d = new Dog();`
+- Variables and methods of a class are also called *members* of a class.
+- Members of a class are accessed using *dot notation*.

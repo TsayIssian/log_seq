@@ -1,0 +1,8 @@
+- static function cant be invoked by the instance , only by the classname .
+- static func can't access variable of instance.
+-
+- Generally, use non static function.
+- ![image.png](../assets/image_1694581474736_0.png)
+-
+- why static method, some classes are never instantiated. for example, Math
+- x= Math.round(5.6);   better than   Math  b = new Math(); x =b.round(x);

@@ -1,0 +1,14 @@
+- ![image.png](../assets/image_1683104150611_0.png)
+- void selection_sort( int [] arr){
+	- for (int i =0; i< arr.length()-1; i++){
+		- int min = i;
+		- for (int j =i +1; j < arr.length(); j++){
+			- if(arr[i] > arr[j])
+				- min =j
+		- }
+		- int temp = arr[i];
+		- arr[i] = arr[min];
+		- arr[min] = temp;
+		-
+	- }
+- }

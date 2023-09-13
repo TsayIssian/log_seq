@@ -1,0 +1,37 @@
+-
+- when  inner join return more records than that i need,
+- so i need check my where clause.
+- inner join can return more records that exists in the table. but it can't return records that not exists in the table.
+-
+- inner join with equal to sign
+- inner join with not equal to sign
+- cross join =  equal to sign and  not equal to sign
+-
+-
+- create table first_table (col1 int);
+- create table second_table(col1 int);
+- create table third_table(col1 int);
+-
+- insert into t1 ->(1,2,3,null)
+- insert into t2 ->(1,2, 3, null)
+- insert into t2-> (2,2,2,2,,2,null)
+-
+-
+-
+- q1:  equal to sign
+	- t1 inner join t2 on t1.col1 = t2.col1
+- get 1, 2,3
+-
+- q2: not equal to sign
+- t1 inner join t2  on t1.col1 <> t2.col1
+- get  2,3,1,3, 1,2
+- together with both to  get the cross join result.
+-
+- q3 inner join with non-distinct row table
+- t1 inner join t3  on t1.col1 = t3.col1
+- get:  2, 2,2,  2,2 ;   the no of the records from t3 is 5.
+- it is more the the records from t1.
+-
+- left join 时，小表放前面。大表放后面。 大表的记录可能被重复了选出，（特别是在表模型 为1:n时），尽量选1:n 为n侧的表为left 前表。  如果把1侧放左边，记得用where  t2. col  is null 筛选
+-
+- 只能设定一个列: auto_increment ss

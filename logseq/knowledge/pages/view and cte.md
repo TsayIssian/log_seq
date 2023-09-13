@@ -1,0 +1,30 @@
+- cte is inline view
+- cte is recursive, not proper to deal with big set of data.
+- cte is temporary ,
+- view are physical object in the database,
+- view can create index, while cte does not.
+- cte exists in memory, can't be used in next query.
+-
+-
+- create view  view_name as
+	- select statments;
+- no need ()
+-
+- eg:
+- create view top_app_max as
+	- select statements;
+-
+- use view that a common table expression in it ,
+- create view top_app_per_category  as
+	- with top_app_max_reviews as (
+		- select  category , max(reviews) as max_num_reviews
+		- from top_apps
+		- group by category
+	- )
+	- select *
+	- from top_apps ta
+	- join top_app_max_reviews tamr
+	- on predicate.
+-
+- view stored query itself , not the output of the query.
+-

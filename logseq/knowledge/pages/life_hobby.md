@@ -1,0 +1,12 @@
+- | exercise in the morning like 7.30.
+- | use caffeine  strateg
+- | no caffeine  10 hours before bedtime.
+- | timing for meal
+- | finish eating 2-4 hours before bed.
+- | limit light   night mode if u do use screens.
+- | alcohol intake.
+- | meditation before bed.
+- | warm light in bedroom
+- | tracking sleep.
+- | debunking sleep myth
+- | therapy, meditation, yoga.
